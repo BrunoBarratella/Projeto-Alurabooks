@@ -20,4 +20,16 @@
     border: 1px solid var(--branco);
     color: var(--branco);
     border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--branco);
+    background: url(../images/Lupa.svg) no-repeat;
+    background-position: 1em;
 }
